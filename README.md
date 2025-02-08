@@ -5,7 +5,7 @@ Web Developer
 -------------
 
 * 🌍  I'm based in India
-* ✉️  You can contact me at [sanyamwadhwa.in@gmail.com](mailto:sanyamwadhwa.in@gmail.com)
+* ✉️  You can contact me at [sanyamwadhwa07@gmail.com](mailto:sanyamwadhwa07@gmail.com)
 * 🚀  I'm currently working on [Formfitness](http://formfitness.in)
 * 🧠  I'm learning Fast API
 
