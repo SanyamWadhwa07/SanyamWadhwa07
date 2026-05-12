@@ -33,7 +33,7 @@ Right now I'm deep into **Agentic AI, LLMs, and RAG** — building things that h
 
 ---
 
-## 🚀 What I'm Building
+## 🚀 What I'm shipped
 
 <table>
 <tr>
