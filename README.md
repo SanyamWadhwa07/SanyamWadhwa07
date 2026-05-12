@@ -19,103 +19,50 @@
 
 ---
 
-## 👨‍💻 About Me
+## 👋 Hey there
 
-```python
-sanyam = {
-    "role"        : "AI & Backend Engineer",
-    "location"    : "Patiala, India 🇮🇳",
-    "education"   : "B.E. Computer Engineering @ TIET  |  CGPA: 8.34",
-    "currently"   : "AI Research Intern @ Centre of Excellence UQ, TIET",
-    "focus"       : ["Agentic AI", "LLMs", "RAG", "MCP", "Backend Systems"],
-    "building"    : [
-                      "FlowSync  — persistent AI memory for coding agents",
-                      "KONTA     — context-aware browsing & knowledge graph"
-                   ],
-    "interests"   : ["Multi-agent systems", "On-device ML", "Distributed systems"],
-    "open_to"     : "AI / Backend internships & research collaborations"
-}
-```
+I'm a **3rd-year CS undergrad** at TIET obsessed with building AI systems that actually work in production — not just demos.
+
+Right now I'm deep into **Agentic AI, LLMs, and RAG** — building things that help AI agents reason, remember, and retrieve. I like working at the intersection of research and engineering: reading a paper, then shipping something.
+
+- 🤖 Currently: building AI memory systems using **Model Context Protocol (MCP)** and **AWS Bedrock**
+- 🔍 Interested in: multi-agent architectures, on-device ML, and semantic retrieval
+- 🌱 Always learning: new LLM tooling, system design, distributed systems
+- 💬 Ask me about: RAG pipelines, LangChain/LangGraph, FastAPI, backend architecture
+- 🎯 Looking for: AI/Backend internship opportunities (Jun–Jul 2026)
 
 ---
 
-## 🎯 Core Focus Areas
+## 🚀 What I'm Building
 
 <table>
 <tr>
 <td width="50%">
 
-#### 🤖 Agentic AI & LLMs
-Designing multi-agent architectures with deterministic routing, safety guardrails, and persistent memory using **LangChain, LangGraph, and AWS Bedrock**.
+### ⚡ FlowSync
+> AI project memory for coding agents
+
+Tired of AI agents losing context mid-project. Built a **MCP server** that gives agents persistent, branch-aware memory backed by **AWS Bedrock + DynamoDB**.
+
+- Event-driven pipeline extracts decisions & risks from git diffs
+- Branch-aware RAG with **~1.2s median retrieval latency**
+- VS Code extension for real-time context logging
+
+**[View Project →](https://github.com/SanyamWadhwa07/flowsync)**
 
 </td>
 <td width="50%">
 
-#### ⚙️ Backend Engineering
-High-performance APIs and event-driven pipelines with **FastAPI, Flask, Node.js**. Databases: **PostgreSQL, MongoDB, DynamoDB, MySQL**.
+### 🧩 KONTA
+> Your browser, but smarter
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+Built a Chrome extension that silently turns your browsing into a **local knowledge graph** — fully on-device, zero data leaves your machine.
 
-#### 🔍 Retrieval-Augmented Generation
-Multi-stage pipelines — BM25 → semantic embeddings → ML re-ranking. Branch-aware RAG systems with vector caching and sub-second latency.
+- 3-layer retrieval: BM25 → semantic embeddings → ML re-ranking
+- Louvain community detection across **8+ topic clusters**
+- **NDCG@5: 0.91 · F1: 0.88 · 84% clustering precision**
 
-</td>
-<td width="50%">
-
-#### ☁️ Cloud & Infrastructure
-Serverless, event-driven architectures on **AWS** (Bedrock, Lambda, DynamoDB). Containerisation with **Docker**, Linux-based deployments.
-
-</td>
-</tr>
-</table>
-
----
-
-## 🏗️ Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-<h3 align="center">⚡ FlowSync</h3>
-
-<div align="center">
-<a href="https://github.com/SanyamWadhwa07/flowsync">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SanyamWadhwa07&repo=flowsync&theme=tokyonight&hide_border=true"/>
-</a>
-</div>
-
-AI project memory system for coding agents using **Model Context Protocol (MCP)**. Event-driven AWS pipeline with branch-aware RAG achieving **~1.2s median retrieval latency**.
-
-<p align="center">
-<img src="https://img.shields.io/badge/AWS_Bedrock-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/MCP-6E57F7?style=flat-square"/>
-<img src="https://img.shields.io/badge/RAG-24243e?style=flat-square"/>
-</p>
-
-</td>
-<td width="50%">
-
-<h3 align="center">🧩 KONTA</h3>
-
-<div align="center">
-<a href="https://github.com/SanyamWadhwa07/KONTA">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SanyamWadhwa07&repo=KONTA&theme=tokyonight&hide_border=true"/>
-</a>
-</div>
-
-Context-aware Chrome extension turning browsing into a **local knowledge graph**. Fully on-device ML. **NDCG@5: 0.91 · F1: 0.88 · 84% clustering precision.**
-
-<p align="center">
-<img src="https://img.shields.io/badge/Transformers.js-FFD43B?style=flat-square&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Plasmo-6E57F7?style=flat-square"/>
-<img src="https://img.shields.io/badge/Louvain-24243e?style=flat-square"/>
-</p>
+**[View Project →](https://github.com/SanyamWadhwa07/KONTA)**
 
 </td>
 </tr>
@@ -127,7 +74,7 @@ Context-aware Chrome extension turning browsing into a **local knowledge graph**
 
 <div align="center">
 
-**🔤 Languages**
+**Languages**
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -136,16 +83,16 @@ Context-aware Chrome extension turning browsing into a **local knowledge graph**
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-%2307405e.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**🧠 AI / ML**
+**AI / ML**
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 
-**⚙️ Frameworks & Backend**
+**Backend & Frameworks**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
@@ -153,46 +100,21 @@ Context-aware Chrome extension turning browsing into a **local knowledge graph**
 ![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-**☁️ Cloud & DevOps**
+**Cloud & DevOps**
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-**🗄️ Databases**
+**Databases**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
 
-**🔧 Tools**
-
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078d4?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
 </div>
-
----
-
-## 🏆 Achievements
-
-| | Achievement | Date |
-|---|---|---|
-| 🥇 | **Winner** — Samsung PRISM Web Agent Hackathon, Patiala | Mar 2026 |
-| 🥇 | **Winner** — Robowars, Saturnalia @ TIET, Patiala | Nov 2023 |
-
----
-
-## 💼 Experience
-
-| 🏢 | Role | Period |
-|---|---|---|
-| 🔬 | **AI Research Intern** — Centre of Excellence UQ, TIET | Jun 2025 – Jan 2026 |
-| 🖥️ | **Software Engineering Intern** — TIET, Patiala | Feb 2025 – Nov 2025 |
-| 📢 | **Technical Coordinator** — Microsoft Learn Student Chapter | Aug 2023 – Apr 2025 |
 
 ---
 
@@ -221,8 +143,7 @@ Context-aware Chrome extension turning browsing into a **local knowledge graph**
 
 <div align="center">
 
-*💡 Open to AI / Backend internship opportunities and research collaborations*<br/>
-*📬 Reach me at [sanyamwadhwa.in@gmail.com](mailto:sanyamwadhwa.in@gmail.com)*
+*Open to AI / Backend internship opportunities — reach me at [sanyamwadhwa.in@gmail.com](mailto:sanyamwadhwa.in@gmail.com)*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=80&section=footer" width="100%"/>
 
