@@ -12,8 +12,6 @@
 
 </div>
 
----
-
 ## About
 
 **3rd-year CS @ Thapar Institute of Engineering & Technology · Graduating 2027**
@@ -22,41 +20,49 @@ I build production-grade AI systems focused on **long-term memory**, **retrieval
 
 > Currently targeting **agentic AI / LLM engineering internships** for Jun–Jul 2026
 
----
-
 ## Tech Stack
+
+<div align="center">
 
 **Languages**
 
-[![Languages](https://skillicons.dev/icons?i=python,cpp,ts,js)](https://skillicons.dev)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 **AI & Machine Learning**
 
-[![AI Stack](https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv)](https://skillicons.dev)
-
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-0A0A0A?style=flat-square&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-FF6B35?style=flat-square&logoColor=white)
-![QLoRA](https://img.shields.io/badge/QLoRA-7952B3?style=flat-square&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-0A0A0A?style=for-the-badge&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-FF6B35?style=for-the-badge&logoColor=white)
+![QLoRA](https://img.shields.io/badge/QLoRA-7952B3?style=for-the-badge&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logoColor=white)
 
 **Backend & Cloud**
 
-[![Backend](https://skillicons.dev/icons?i=fastapi,flask,nodejs,docker,aws)](https://skillicons.dev)
-
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 **Databases**
 
-[![Databases](https://skillicons.dev/icons?i=postgres,mongodb,mysql)](https://skillicons.dev)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
 
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
-
----
+</div>
 
 ## Research & Competitions
 
@@ -83,8 +89,6 @@ I build production-grade AI systems focused on **long-term memory**, **retrieval
 </tr>
 </table>
 
----
-
 ## GitHub Analytics
 
 <div align="center">
@@ -98,8 +102,6 @@ I build production-grade AI systems focused on **long-term memory**, **retrieval
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=SanyamWadhwa07&theme=github-compact&hide_border=true"/>
 
 </div>
-
----
 
 <div align="center">
 
