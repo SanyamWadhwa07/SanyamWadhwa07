@@ -16,39 +16,72 @@
 
 ## About
 
-3rd-year CS @ TIET · Graduating 2027
+**3rd-year CS @ Thapar Institute of Engineering & Technology · Graduating 2027**
 
-I build production-grade AI systems with a focus on long-term memory, retrieval, orchestration, multimodal learning, and deployment. My interests lie in designing reliable AI infrastructure rather than building prompt wrappers.
+I build production-grade AI systems focused on **long-term memory**, **retrieval**, **orchestration**, and **multimodal learning**. My interest is in designing reliable AI infrastructure — not building prompt wrappers.
 
-Currently targeting **agentic AI / LLM engineering internships** for Jun–Jul 2026.
-
----
-
-## Core Expertise
-
-| Domain               | Technologies                                                          |
-| -------------------- | --------------------------------------------------------------------- |
-| **Agentic AI**       | LangGraph • LangChain • MCP • Multi-Agent Systems • Tool Calling      |
-| **LLMs**             | Hugging Face • Transformers • QLoRA • RLHF • RAG • Prompt Engineering |
-| **Machine Learning** | PyTorch • TensorFlow • scikit-learn • OpenCV • ONNX • TFLite          |
-| **Backend**          | FastAPI • Flask • Node.js • REST APIs                                 |
-| **Cloud & DevOps**   | Docker • AWS Bedrock • Lambda • DynamoDB • GitHub Actions             |
-| **Databases**        | PostgreSQL • MongoDB • MySQL                                          |
-| **Languages**        | Python • C++ • TypeScript • JavaScript • SQL                          |
+> Currently targeting **agentic AI / LLM engineering internships** for Jun–Jul 2026
 
 ---
 
+## Tech Stack
 
+**Languages**
+
+[![Languages](https://skillicons.dev/icons?i=python,cpp,ts,js)](https://skillicons.dev)
+
+**AI & Machine Learning**
+
+[![AI Stack](https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv)](https://skillicons.dev)
+
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-0A0A0A?style=flat-square&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-FF6B35?style=flat-square&logoColor=white)
+![QLoRA](https://img.shields.io/badge/QLoRA-7952B3?style=flat-square&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logoColor=white)
+
+**Backend & Cloud**
+
+[![Backend](https://skillicons.dev/icons?i=fastapi,flask,nodejs,docker,aws)](https://skillicons.dev)
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+
+**Databases**
+
+[![Databases](https://skillicons.dev/icons?i=postgres,mongodb,mysql)](https://skillicons.dev)
+
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+
+---
 
 ## Research & Competitions
 
-🏆 Samsung PRISM Web Agent Hackathon — **Winner**
-
-🏆 Amazon ML Challenge 2025 — **Top 100**
-
-🧠 **COE-UQ AI Research Intern** — LLM safety guardrails, PyTorch, HuggingFace
-
-🔬 **TIET Research Lab** — Multi-agent mental health chatbot
+<table>
+<tr>
+  <td>🏆</td>
+  <td><strong>Samsung PRISM Web Agent Hackathon</strong></td>
+  <td><code>Winner</code></td>
+</tr>
+<tr>
+  <td>🏆</td>
+  <td><strong>Amazon ML Challenge 2025</strong></td>
+  <td><code>Top 100</code></td>
+</tr>
+<tr>
+  <td>🧠</td>
+  <td><strong>COE-UQ — AI Research Intern</strong><br/><sub>LLM safety guardrails · PyTorch · HuggingFace</sub></td>
+  <td><code>Research</code></td>
+</tr>
+<tr>
+  <td>🔬</td>
+  <td><strong>TIET Research Lab</strong><br/><sub>Multi-agent mental health chatbot</sub></td>
+  <td><code>Research</code></td>
+</tr>
+</table>
 
 ---
 
