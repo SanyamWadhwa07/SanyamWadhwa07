@@ -18,7 +18,6 @@
 
 I build production-grade AI systems focused on **long-term memory**, **retrieval**, **orchestration**, and **multimodal learning**. My interest is in designing reliable AI infrastructure — not building prompt wrappers.
 
-> Currently targeting **agentic AI / LLM engineering internships** for Jun–Jul 2026
 
 ## Tech Stack
 
@@ -63,33 +62,6 @@ I build production-grade AI systems focused on **long-term memory**, **retrieval
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
 
 </div>
-
-## Research & Competitions
-
-<table>
-<tr>
-  <td>🏆</td>
-  <td><strong>Samsung PRISM Web Agent Hackathon</strong></td>
-  <td><code>Winner</code></td>
-</tr>
-<tr>
-  <td>🏆</td>
-  <td><strong>Amazon ML Challenge 2025</strong></td>
-  <td><code>Top 100</code></td>
-</tr>
-<tr>
-  <td>🧠</td>
-  <td><strong>COE-UQ — AI Research Intern</strong><br/><sub>LLM safety guardrails · PyTorch · HuggingFace</sub></td>
-  <td><code>Research</code></td>
-</tr>
-<tr>
-  <td>🔬</td>
-  <td><strong>TIET Research Lab</strong><br/><sub>Multi-agent mental health chatbot</sub></td>
-  <td><code>Research</code></td>
-</tr>
-</table>
-
-## GitHub Analytics
 
 <div align="center">
 
