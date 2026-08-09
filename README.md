@@ -14,7 +14,7 @@
 
 ## About
 
-**3rd-year CS @ Thapar Institute of Engineering & Technology · Graduating 2027**
+**4rth-year CS @ Thapar Institute of Engineering & Technology · Graduating 2027**
 
 I build production-grade AI systems focused on **long-term memory**, **retrieval**, **orchestration**, and **multimodal learning**. My interest is in designing reliable AI infrastructure — not building prompt wrappers.
 
