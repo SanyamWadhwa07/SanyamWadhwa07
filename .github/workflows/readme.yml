@@ -1,0 +1,49 @@
+name: Update open source list
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: List pull requests to other people's repositories
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh search prs --author SanyamWadhwa07 --limit 100 \
+            --json repository,title,url,state,createdAt \
+            --jq '[.[] | select((.repository.nameWithOwner | test("^(SanyamWadhwa07|ips610|AnshumSingla)/")) | not) | select(.state != "closed")] | sort_by(.createdAt) | reverse | .[:8][] | "- **\(if .state == "merged" then "Merged" else "In review" end)** · [\(.title)](\(.url)) in `\(.repository.nameWithOwner)`"' \
+            > oss.md
+          test -s oss.md
+
+      - name: Write the list into the README
+        run: |
+          python3 - <<'PY'
+          import re
+          readme = open("README.md", encoding="utf-8").read()
+          items = open("oss.md", encoding="utf-8").read().strip()
+          readme = re.sub(
+              r"(<!-- oss starts -->\n).*?(\n<!-- oss ends -->)",
+              lambda m: m.group(1) + items + m.group(2),
+              readme,
+              flags=re.S,
+          )
+          open("README.md", "w", encoding="utf-8").write(readme)
+          PY
+          rm oss.md
+
+      - name: Commit if changed
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update open source list"
+          git push

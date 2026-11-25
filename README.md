@@ -1,161 +1,51 @@
+### Hi, I'm Sanyam 👋
 
-<div align="center">
+I build AI systems and the engineering that keeps them correct: agent pipelines, retrieval, evals and the backends under them. Final year Computer Engineering at Thapar Institute, graduating 2027. **Open to 6 month internships from January 2027**, in India or remote.
 
-<img src="./download.gif" alt="Sanyam Wadhwa" width="100%"/>
+[sanyamwadhwa.tech](https://sanyamwadhwa.tech) · [Blog](https://sanyamwadhwa.tech/blog) · [Resume](https://sanyamwadhwa.tech/resume) · [Open source](https://sanyamwadhwa.tech/open-source) · [LinkedIn](https://www.linkedin.com/in/sanyamwadhwa07) · [Email](mailto:sanyamwadhwa.in@gmail.com)
 
-<br/>
+### Selected work
 
-# Sanyam Wadhwa
+| Project | What it does | Measured |
+| --- | --- | --- |
+| [**PaperMind**](https://github.com/SanyamWadhwa07/PaperMind) | Multi-agent reader that turns an arXiv ID into the paper's findings, methods, datasets and figures from the full text, with Gemini → Groq → Ollama failover | Figure extraction F1 **0.972**, all **122** figures recovered across 16 papers |
+| [**Duet**](https://github.com/SanyamWadhwa07/duet) | Live coding-interview room on an operational transformation sync engine written from scratch (React, Monaco, Node, PostgreSQL) | Lost keystrokes for two typists **49% → 0**, **30,000** randomized convergence tests per push |
+| [**Veridex**](https://github.com/SanyamWadhwa07/Redrob-Ranker) | Candidate ranker with BM25 + FAISS retrieval and a graded auditor; every score can be rebuilt by hand | **100,000** profiles ranked in ~30 s on CPU, **3,492** keyword stuffers caught, none in the top 100 |
+| [**Onramp**](https://github.com/SanyamWadhwa07/onramp) | Agent skill for Claude Code, Codex, Cursor and 60+ coding agents that builds a guided tour of any codebase, every claim cited to source lines | Checker caught **all 525** planted citation errors, zero false alarms on 200 real ones |
+| [**NeoSpasm**](https://github.com/SanyamWadhwa07/Neospasm) | ML model and clinician dashboard that detects infantile spasms from raw hospital EEG | AUROC **0.96** on a 100 child cohort, **1st place** at PGIMER |
+| [**KONTA**](https://github.com/aahil-khan/KONTA) | Chrome extension that turns browsing history into a searchable knowledge base, every model running in the browser via ONNX | NDCG@5 **0.47 → 0.77** with an ML re-ranker, **Samsung PRISM** winner |
+| [**Pehchaan**](https://github.com/SanyamWadhwa07/Pehchaan) | Offline face verification for workers at construction site gates, fully on the phone | **97%** true accepts, under 1% false accepts, 3.8 MB quantized MobileFaceNet |
 
-### AI Systems Engineer | Agentic AI | LLM Infrastructure
+### Open source
 
-Building intelligent systems with **memory, reasoning, retrieval and orchestration.**
+<!-- oss starts -->
+- **In review** · [fix(cli): read front matter after a byte order mark](https://github.com/atlanai/ai-registry/pull/275) in `atlanai/ai-registry`
+- **In review** · [Read and write text files as UTF-8 so the corpus loads on Windows](https://github.com/atlanai/decision-bench/pull/79) in `atlanai/decision-bench`
+- **Merged** · [feat(cli): report duplicate skills in status](https://github.com/atlanai/ai-registry/pull/230) in `atlanai/ai-registry`
+<!-- oss ends -->
 
-<br/>
+Updated daily by a GitHub Action. Reviews and issue work at [sanyamwadhwa.tech/open-source](https://sanyamwadhwa.tech/open-source).
 
-<a href="https://sanyamwadhwa.tech">
-  <img src="https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-<a href="https://linkedin.com/in/sanyamwadhwa07">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:sanyamwadhwa.in@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+### Writing
 
-</div>
+- [MCP vs CLI: I measured what each one actually costs an agent](https://sanyamwadhwa.tech/blog/mcp-vs-cli-tokens)
+- [How to evaluate an agent system for bottlenecks and accuracy](https://sanyamwadhwa.tech/blog/agent-pipeline-evals)
 
----
+### Experience
 
-## `$ whoami`
+- **AI Research Intern, COE-UQ, Thapar** (Jun to Jul 2025): safety pipeline for a mental health chatbot. Emotion, sentiment and safety modules run in parallel ahead of a QLoRA + RLHF tuned LLaMA, tested against 50+ adversarial prompts.
+- **Software Engineering Intern, Thapar** (Feb to Nov 2025): the exam datesheet generator the institute runs on, live at exams.thapar.edu. A constraint solver over 400+ variables, 3x faster generation, zero clashes by construction.
+- **CTO, EvexFitness** (May to Oct 2024): led a 5 person team shipping a fitness platform with real-time exercise form checking from the camera.
 
-I'm a **4th-year Computer Engineering student at Thapar Institute of Engineering & Technology**, graduating in 2027.
+### Recognition
 
-My work sits at the intersection of **AI engineering, LLM systems and applied machine learning research**.
+- 🥇 1st place, Pediatric Epilepsy Research Symposium, PGIMER Chandigarh (2026), for NeoSpasm
+- 🏆 Winner, Samsung PRISM Web Agent Hackathon (2026), for KONTA
+- Top 200, Amazon ML Challenge, 2025 and 2026
 
-I am particularly interested in building systems that go beyond single-turn interactions:
+### Stack
 
-- **Agentic Systems:** Multi-agent orchestration, tool calling, MCP and autonomous workflows.
-- **LLM Infrastructure:** Long-term memory, context engineering, retrieval pipelines and evaluation.
-- **Applied ML Research:** Deep learning, multimodal architectures and medical image analysis.
-- **AI Engineering:** Model optimization, inference pipelines, scalable backends and deployment.
-
-I care about the engineering behind intelligent systems — how they retrieve, reason, maintain context, handle failure and perform reliably in real-world environments.
-
-## `$ featured_work`
-
-### 01. KONTA — Context-Aware Browsing Agent
-
-<sup>WINNER · SAMSUNG PRISM WEB AGENT HACKATHON 2026</sup>
-
-A context-aware browser extension designed to make browsing more intelligent by connecting information across web pages and user context.
-
-`TypeScript` `React` `Plasmo` `Transformers.js` `LLMs`
-
-### 02. FlowSync — AI Project Memory System
-
-An AI-powered project memory system built around persistent context, retrieval and intelligent orchestration, enabling agents to retain and reuse project knowledge.
-
-`AWS Bedrock` `RAG` `DynamoDB` `Lambda` `Python` `TypeScript`
-
-### 03. NeuroSpasm-AI — Multimodal Clinical Intelligence
-
-A research-oriented platform for infantile spasm analysis, combining EEG biomarkers, physiological signals and video-based motor analysis into a multimodal severity assessment pipeline.
-
-`PyTorch` `MNE` `NeuroKit` `SciPy` `FastAPI` `PostgreSQL`
-
-### 04. Minimi — Conversational AI Agent
-
-A conversational agent featuring date-aware contextual memory, historical conversation retrieval and web search capabilities.
-
-[Explore Repository →](https://github.com/SanyamWadhwa07/minimi-chat-agent)
-
-`Python` `LLMs` `Gemini API` `Groq` `Memory`
-
----
-
-## `$ technical_expertise`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**AI & Machine Learning**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
-
-**LLM Engineering**
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-121212?style=flat-square&logo=langgraph&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-FF6B35?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square)
-![QLoRA](https://img.shields.io/badge/QLoRA-7952B3?style=flat-square)
-
-</td>
-<td width="50%" valign="top">
-
-**Backend & Infrastructure**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-**Databases & Storage**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
-
-</td>
-</tr>
-</table>
-
-**Languages**
-
-`Python` · `C++` · `TypeScript` · `JavaScript` · `SQL`
-
----
-
-## `$ recognition`
-
-| Achievement | Recognition |
-|---|---|
-| Samsung PRISM Web Agent Hackathon 2026 | 🏆 Winner |
-| Amazon ML Challenge 2025 | Top 100 |
-| Robowars — Saturnalia 2023 | 🏆 Winner |
-| PGI Research Symposium | 🏆 Winner |
-
----
-
-## `$ github_activity`
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SanyamWadhwa07&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"/>
-
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=SanyamWadhwa07&theme=github-dark&hide_border=true"/>
-
-<br/>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=SanyamWadhwa07&theme=github-compact&hide_border=true"/>
-
-</div>
-
----
-
-<div align="center">
-
-### *Research deeply. Engineer intelligently. Build relentlessly.*
-
-<sub>Interested in AI systems, LLM infrastructure and research-driven engineering.</sub>
-
-</div>
+- **Languages**: Python, TypeScript, C++, SQL
+- **AI/ML**: PyTorch, Hugging Face, LangGraph, RAG, BM25 + FAISS, LLM evals, llama.cpp, ONNX
+- **Backend**: FastAPI, Node.js, PostgreSQL + pgvector, MySQL, DynamoDB, WebSockets
+- **Infra**: Docker, AWS (Lambda, DynamoDB, Bedrock), GitHub Actions, Linux
