@@ -22,6 +22,11 @@ I build AI systems and the engineering that keeps them correct: agent pipelines,
 - **In review** · [fix(cli): read front matter after a byte order mark](https://github.com/atlanai/ai-registry/pull/275) in `atlanai/ai-registry`
 - **In review** · [Read and write text files as UTF-8 so the corpus loads on Windows](https://github.com/atlanai/decision-bench/pull/79) in `atlanai/decision-bench`
 - **Merged** · [feat(cli): report duplicate skills in status](https://github.com/atlanai/ai-registry/pull/230) in `atlanai/ai-registry`
+- **Merged** · [updated app dev resources](https://github.com/MicrosoftStudentChapter/Tech-Resources/pull/14) in `MicrosoftStudentChapter/Tech-Resources`
+- **Merged** · [added resources of DSA and Cyber Security](https://github.com/MicrosoftStudentChapter/Tech-Resources/pull/12) in `MicrosoftStudentChapter/Tech-Resources`
+- **Merged** · [core name added](https://github.com/MicrosoftStudentChapter/mlsctiet/pull/123) in `MicrosoftStudentChapter/mlsctiet`
+- **Merged** · [homepage done](https://github.com/MicrosoftStudentChapter/mlsctiet/pull/120) in `MicrosoftStudentChapter/mlsctiet`
+- **Merged** · [favicon changed](https://github.com/MicrosoftStudentChapter/Linky/pull/14) in `MicrosoftStudentChapter/Linky`
 <!-- oss ends -->
 
 Updated daily by a GitHub Action. Reviews and issue work at [sanyamwadhwa.tech/open-source](https://sanyamwadhwa.tech/open-source).
