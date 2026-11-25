@@ -20,7 +20,7 @@ jobs:
         run: |
           gh search prs --author SanyamWadhwa07 --limit 100 \
             --json repository,title,url,state,createdAt \
-            --jq '[.[] | select((.repository.nameWithOwner | test("^(SanyamWadhwa07|ips610|AnshumSingla)/")) | not) | select(.state != "closed")] | sort_by(.createdAt) | reverse | .[:8][] | "- **\(if .state == "merged" then "Merged" else "In review" end)** · [\(.title)](\(.url)) in `\(.repository.nameWithOwner)`"' \
+            --jq '[.[] | select((.repository.nameWithOwner | test("^(SanyamWadhwa07|ips610|AnshumSingla|MicrosoftStudentChapter)/")) | not) | select(.state != "closed")] | sort_by(.createdAt) | reverse | .[:8][] | "- **\(if .state == "merged" then "Merged" else "In review" end)** · [\(.title)](\(.url)) in `\(.repository.nameWithOwner)`"' \
             > oss.md
           test -s oss.md
 
