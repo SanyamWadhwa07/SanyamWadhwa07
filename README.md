@@ -19,6 +19,8 @@ I build AI systems and the engineering that keeps them correct: agent pipelines,
 ### Open source
 
 <!-- oss starts -->
+- **In review** · [fix(resolution): drop the self-loop from interface dispatch out of a decorator (#2836)](https://github.com/abhigyanpatwari/GitNexus/pull/4150) in `abhigyanpatwari/GitNexus`
+- **In review** · [fix(metrics): fold verdict case before Literal validation in citation faithfulness and topic adherence](https://github.com/confident-ai/deepeval/pull/3778) in `confident-ai/deepeval`
 - **In review** · [fix(cli): read front matter after a byte order mark](https://github.com/atlanai/ai-registry/pull/275) in `atlanai/ai-registry`
 - **In review** · [Read and write text files as UTF-8 so the corpus loads on Windows](https://github.com/atlanai/decision-bench/pull/79) in `atlanai/decision-bench`
 - **Merged** · [feat(cli): report duplicate skills in status](https://github.com/atlanai/ai-registry/pull/230) in `atlanai/ai-registry`
