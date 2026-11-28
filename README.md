@@ -19,14 +19,14 @@ I build AI systems and the engineering that keeps them correct: agent pipelines,
 ### Open source
 
 <!-- oss starts -->
+- **In review** · [Keep assistant messages in Strands chat span inputs](https://github.com/mlflow/mlflow/pull/28222) in `mlflow/mlflow`
+- **In review** · [Trace `Model.generate` in smolagents autolog](https://github.com/mlflow/mlflow/pull/28217) in `mlflow/mlflow`
+- **In review** · [fix(jats): keep the content after a reference list or subsection out of it](https://github.com/docling-project/docling/pull/5642) in `docling-project/docling`
+- **In review** · [Trace only the current turn in multi-turn `ClaudeSDKClient` conversations](https://github.com/mlflow/mlflow/pull/28206) in `mlflow/mlflow`
 - **In review** · [fix(workflow): take unowned work in start_work after its assignment lease ran out](https://github.com/Get-Concord-AI/concord-mcp/pull/430) in `Get-Concord-AI/concord-mcp`
 - **In review** · [fix(kotlin): resolve calls to top-level functions in same-package sibling files (#4196)](https://github.com/abhigyanpatwari/GitNexus/pull/4197) in `abhigyanpatwari/GitNexus`
 - **In review** · [fix(relay): keep a refused relay push pending for the sweep](https://github.com/Get-Concord-AI/concord-mcp/pull/427) in `Get-Concord-AI/concord-mcp`
 - **Merged** · [fix(domain): treat every spelling of the repository root as a root claim](https://github.com/Get-Concord-AI/concord-mcp/pull/420) in `Get-Concord-AI/concord-mcp`
-- **In review** · [fix(resolution): drop the self-loop from interface dispatch out of a decorator (#2836)](https://github.com/abhigyanpatwari/GitNexus/pull/4150) in `abhigyanpatwari/GitNexus`
-- **In review** · [fix(metrics): fold verdict case before Literal validation in citation faithfulness and topic adherence](https://github.com/confident-ai/deepeval/pull/3778) in `confident-ai/deepeval`
-- **In review** · [fix(cli): read front matter after a byte order mark](https://github.com/atlanai/ai-registry/pull/275) in `atlanai/ai-registry`
-- **In review** · [Read and write text files as UTF-8 so the corpus loads on Windows](https://github.com/atlanai/decision-bench/pull/79) in `atlanai/decision-bench`
 <!-- oss ends -->
 
 Updated daily by a GitHub Action. Reviews and issue work at [sanyamwadhwa.tech/open-source](https://sanyamwadhwa.tech/open-source).
